@@ -1,4 +1,4 @@
-FROM hellosworldos/magento
+FROM widgento/magento
 MAINTAINER Widgento
 
 ADD /etc/php5/fpm/conf.d/21-customdebug.ini /etc/php5/fpm/conf.d/21-customdebug.ini
