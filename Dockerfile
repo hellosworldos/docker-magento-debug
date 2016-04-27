@@ -11,4 +11,3 @@ RUN apt-get update \
     php5-xdebug \
     && chmod +x /tmp/init.sh
 
-
