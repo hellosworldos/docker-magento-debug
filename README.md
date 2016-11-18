@@ -17,3 +17,9 @@ Docker image to run Magento1 CE web server and it's cron for debugging/developme
 
  * IDE key: magento_remote
  * Port: 9090
+
+* On first run: 
+  * map to absolute path on server `/var/www/magento/repo_volume` 
+  * Stop debugger
+  * go to File > Settings > Languages & Frameworks > PHP > Servers and give this server a name, don't set the other params
+  * On next run it will stick to breakpoints in IDE
